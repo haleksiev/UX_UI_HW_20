@@ -1,0 +1,143 @@
+/* css/style.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Updated Header Styles */
+header {
+    background-color: #002447;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    margin-right: 15px; /* Adds some space between the logo and the title */
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    display: inline-block;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Section */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.col {
+    padding: 15px;
+    background-color: #eaeaea;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Carousel Styles */
+.carousel-caption h5 {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carousel-caption p {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+}
+/* Page Title Styling */
+.page-title {
+    font-size: 48px; /* Increased the font size for a larger title */
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px; /* Adds spacing below the title */
+    margin-top: 20px;     /* Adds spacing above the title */
+}
+
+/* Column Styles */
+.col {
+    background-color: #f5f5dc; /* Cream color for the columns */
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
+
+/* Column Title Styling */
+.col h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #002447; /* Matching the header color */
+}
+
+.col p {
+    font-size: 16px;
+    color: #333;
+}
+/* Footer Styles */
+footer {
+    background-color: #002447;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
